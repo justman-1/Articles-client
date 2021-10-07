@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.mainPosts{
+    margin-top: 70px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainPost{
+    width: 600px;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: -300px;
+    background-color: white;
+    box-shadow: 0px 0px 4px #E8E8E8;
+    border-radius: 3px;
+    height: 180px;
+    cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainPostHeaderAndPreview{
+    width: 560px;
+    margin: 10px 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainPostHeader{
+    width: 360px;
+    font-size: 20px;
+    margin-top: 15px;
+    height: 120px;
+    overflow: hidden;
 }
-
-.App-link {
-  color: #61dafb;
+.mainPostPreviewBl{
+    margin-top: 15px;
+    border-radius: 3px;
+    width: 200px;
+    height: 120px;
+    overflow: hidden;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainPostPreview{
+    position: relative;
+    width: 100%;
+    transition: all 0.2s ease;
+    opacity: 0;
+}
+.mainPostTime{
+    float: left;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.mainPostViews{
+    float: left;
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.mainPostViewsImg{
+    height: 17px;
+    margin-left: 2px;
+    position: relative;
+    top: -1px
+}
+.mainAllLoading{
+    transition: all 0.3s ease;
 }
